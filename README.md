@@ -50,12 +50,12 @@
 
 #### Алгоритмы сортировки
 
-    heap-sort [5,3,1,9,2]
-    quick-sort [10,80,30,90,40]
-    bubble-sort [64,34,25,12,22]
-    bucket-sort [0.1,0.5,0.3,0.9,0.2]
-    counting-sort [4,2,2,8,3,3,1]
-    radix-sort [170,45,75,90,802,24,2,66]
+    heap-sort
+    quick-sort
+    bubble-sort
+    bucket-sort
+    counting-sort
+    radix-sort
 
 ### Операции со стеком
 
