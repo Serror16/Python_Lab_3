@@ -1,15 +1,15 @@
 import ast
-from fibo_recursive import fibo_recursive as fibo_rec
-from fibo import fibo as fibo_iter
-from bubble_sort import bubble_sort
-from factorial import factorial as factorial_iter
-from factorial_recursive import factorial_recursive as factorial_rec
-from quick_sort import quick_sort_main as quick_sort
-from heap_sort import heap_sort
-from bucket_sort import bucket_sort
-from counting_sort import counting_sort
-from radix_sort import radix_sort
-from stack import Stack
+from src.fibo_recursive import fibo_recursive as fibo_rec
+from src.fibo import fibo as fibo_iter
+from src.bubble_sort import bubble_sort
+from src.factorial import factorial as factorial_iter
+from src.factorial_recursive import factorial_recursive as factorial_rec
+from src.quick_sort import quick_sort_main as quick_sort
+from src.heap_sort import heap_sort
+from src.bucket_sort import bucket_sort
+from src.counting_sort import counting_sort
+from src.radix_sort import radix_sort
+from src.stack import Stack
 stack = Stack()
 
 
