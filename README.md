@@ -8,7 +8,7 @@
 
  <pre>
             Python_Lab_3/
-            ├── src/                                   # Исходный код
+            ├── src/
             │   ├── __init__.py                        
             │   ├── bubble_sort.py                     # Сортировка пузырьком
             |   ├── bucket_sort.py                     # Блочная сортировка
@@ -23,7 +23,7 @@
             |   ├── stack.py                           # Реализация стека
             │   ├── heap_sort.py                       # Пирамидальная сортировка
             │   └── main.py                            # Точка входа в приложение и парсер
-            ├── tests/                                 # Unit тесты
+            ├── tests/
             │   ├── __init__.py
             │   ├── run_benchmark.py                   # Файл для запуска бенчмаркингов
             │   ├── benchmark.py                       # Основной механизм реализации бенчмаркинга
@@ -50,12 +50,12 @@
 
 #### Алгоритмы сортировки
 
-    heap-sort
-    quick-sort
-    bubble-sort
-    bucket-sort
-    counting-sort
-    radix-sort
+    heap-sort [5,3,1,9,2]
+    quick-sort [10,80,30,90,40]
+    bubble-sort [64,34,25,12,22]
+    bucket-sort [0.1,0.5,0.3,0.9,0.2]
+    counting-sort [4,2,2,8,3,3,1]
+    radix-sort [170,45,75,90,802,24,2,66]
 
 ### Операции со стеком
 
@@ -66,7 +66,29 @@
     stack size           # Получить размер стека
     stack is_empty       # Проверить пуст ли стек
 
-### Формат ввода
+## Также в проекте есть benchmarking
+
+    python -m tests.run_benchmark
+
+## Запуск тестов
+
+    pytests
+
+### Результат
+
+    ================================================= test session starts =================================================
+    platform win32 -- Python 3.12.5, pytest-8.4.2, pluggy-1.6.0
+    rootdir: C:\Users\ser20\Documents\Python_Lab_3
+    configfile: pyproject.toml
+    plugins: anyio-4.4.0
+    collected 75 items
+
+    tests\test_sortings.py ............................ss...................................                         [ 86%]
+    tests\test_stack.py ..........                                                                                   [100%]
+
+    ============================================ 73 passed, 2 skipped in 0.12s ============================================
+
+## Формат ввода
 
     Числа: 10, 25, 100
     Списки: [1,2,3], [5,3,8,1,9]
